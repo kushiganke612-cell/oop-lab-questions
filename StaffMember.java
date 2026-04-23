@@ -12,7 +12,6 @@ abstract class StaffMember {
     public String getFullName() {
         return fullName;
     }
-
     public String getStaffId() {
         return staffId;
     }
