@@ -1,0 +1,13 @@
+package com.mycompany.deliverychargecalculator;
+
+public class DeliveryChargeTest {
+    public static void main(String[] args) {
+
+        DeliveryChargeCalculator calc = new DeliveryChargeCalculator();
+
+        System.out.println("Base Charge: " + calc.calculateCharge(1200));
+        System.out.println("With Distance: " + calc.calculateCharge(1200, 9));
+        System.out.println("With Distance & Weight: " + calc.calculateCharge(1200, 9, 4));
+        System.out.println("With Express Delivery: " + calc.calculateCharge(1200, true));
+    }
+        }
